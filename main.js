@@ -50,12 +50,12 @@ function setup() {
   // Initializing the color map
   // We will use these colors to fill the grid blocks according to their values.
   COLOR_MAP = {
-    0: color(140),
-    1: color(30),
-    2: color(255, 40, 40),
-    3: color(80, 255, 80),
-    4: color(64),
-    5: color(128, 182, 80),
+    0: color(140), // FREE
+    1: color(30), // BLOCK
+    2: color(255, 40, 40), // SOURCE
+    3: color(80, 255, 80), // DESTINATION
+    4: color(64), // SCAN
+    5: color(128, 182, 80), // PATH
   };
 
   // Randomly place blocks, source and destination in the scene
